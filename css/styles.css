@@ -1,0 +1,11 @@
+:root {
+  --accent-color: #ff6c00;
+  --dark-color: #303030;
+  --text-color: #555555;
+  --white-color: #ffffff;
+  --pale-color: #9da4bd;
+  --desc-pale-color: rgba(157, 164, 189, 0.6);
+
+  --bg-primary-color: #f7f7f7;
+  --bg-dark-color: #191c26;
+}
