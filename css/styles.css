@@ -334,6 +334,7 @@ address {
 }
 
 /* ---------------------------- achievements ---------------------------- */
+
 .achievements-list {
   width: 370px;
   margin-right: 130px;
@@ -375,3 +376,39 @@ address {
 .achievements-content {
   width: 500px;
 }
+
+/* ---------------------------- team ---------------------------- */
+
+#team {
+  background-color: var(--bg-primary-color);
+}
+
+.team-list {
+  margin-top: 44px;
+}
+
+.team-list-content {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.team-list-name {
+  margin-bottom: 8px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.362;
+
+  color: var(--dark-color);
+}
+
+.team-list-position {
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  line-height: 1.362;
+
+  color: var(--accent-color);
+}
+
+
