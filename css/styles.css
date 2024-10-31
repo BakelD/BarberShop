@@ -213,3 +213,47 @@ address {
 .auth-tel:focus {
   color: var(--accent-color);
 }
+
+/* ---------------------------- hero ---------------------------- */
+.hero .container {
+  background-color: #ccc; /*temp*/
+}
+
+.hero-aside {
+  width: 100px;
+}
+
+.hero-content {
+  flex-grow: 1;
+  padding-top: 272px;
+  padding-left: 100px;
+  padding-bottom: 206px;
+}
+
+.hero-desc {
+  margin-bottom: 20px;
+
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.362;
+  letter-spacing: 0.1em;
+
+  color: var(--desc-pale-color);
+}
+
+.hero-title {
+  margin-bottom: 20px;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.174;
+  letter-spacing: 0.05em;
+
+  color: var(--white-color);
+}
+
+.hero-text {
+  width: 468px;
+  color: var(--pale-color);
+}
