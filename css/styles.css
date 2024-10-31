@@ -257,3 +257,32 @@ address {
   width: 468px;
   color: var(--pale-color);
 }
+
+/* ---------------------------- about ---------------------------- */
+
+.about-list {
+  width: 570px;
+  margin-right: 64px;
+}
+
+.about-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-content {
+  width: 500px;
+}
+
+.about-content .section-text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.about-content .btn {
+  color: var(--dark-color);
+}
+
+.about-content .btn:hover,
+.about-content .btn:focus {
+  color: var(--white-color);
+}
