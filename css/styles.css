@@ -84,6 +84,14 @@ address {
   justify-content: space-between;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
 /* ---------------------------- components ---------------------------- */
 
 .btn {
@@ -323,4 +331,47 @@ address {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ---------------------------- achievements ---------------------------- */
+.achievements-list {
+  width: 370px;
+  margin-right: 130px;
+}
+
+.achievements-list-item {
+  width: 170px;
+  min-height: 133px;
+  padding: 18px;
+
+  line-height: 1.362;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.achievements-list-item:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.achievements-list-item:nth-child(even) {
+  margin-top: 30px;
+}
+
+.achievements-list-number {
+  margin-bottom: 6px;
+
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.achievements-list-text {
+  margin-bottom: 0;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.achievements-content {
+  width: 500px;
 }
