@@ -149,6 +149,10 @@ address {
   color: var(--dark-color);
 }
 
+.section-desc.pale {
+  color: var(--desc-pale-color);
+}
+
 .section-title {
   margin-bottom: 20px;
 
@@ -159,6 +163,10 @@ address {
   letter-spacing: 0.05em;
 
   color: var(--dark-color);
+}
+
+.section-title.light {
+  color: var(--white-color);
 }
 
 .section-text {
