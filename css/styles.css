@@ -411,4 +411,8 @@ address {
   color: var(--accent-color);
 }
 
+/* ---------------------------- gallery ---------------------------- */
 
+.gallery-list {
+  margin-top: 44px;
+}
